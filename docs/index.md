@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Documentation
 
-You can use the [editor on GitHub](https://github.com/AmyC945/AmyC945.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+http://sotd.us/amycook1/Sample_App4/project6.html
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+http://sotd.us/amycook1/Sample_App4/cooka_project6_080921.zip
 
-### Markdown
+### Purpose
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The purpose of this site is a course project for a Mobile Application class. The basic guidelines were to create a site using PHP mobile that shows a list of favorite things. Each week we had new requirements for additions to the site. For my website, I chose to display a list of my favorite animals from different categories. 
 
-```markdown
-Syntax highlighted code block
+### Site Structure
 
-# Header 1
-## Header 2
-### Header 3
+The first page is the home page, which has a list of the other six pages that make up the website. On the home page, there is also a header, footer, panel with extra information, and logo. The list of pages is a filtered list that links to each section. 
 
-- Bulleted
-- List
+The six pages are labelled:
 
-1. Numbered
-2. List
+1. Land Animals
+2. Aquatic Animals
+3. Birds
+4. Prehistoric Animals
+5. Insects
+6. Submit Your Favorites
 
-**Bold** and _Italic_ and `Code` text
+### Pages
 
-[Link](url) and ![Image](src)
-```
+The first five pages have the same structure, with only differences being the content of the text and the color scheme. There is a header listing what section it is, then a back button leading to the home page on the upper right corner. A footer with my name and a copyright sign is at the bottom. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In the body of the page, there is another header with the title of the page and a small summary. Content of the list is numbered from 1 to 5 in a filtered list. 
 
-### Jekyll Themes
+On page 6, 'Submit Your Favorites', there is a 5 by 5 grid with a picture of each animal in the previous pages. Next, there is a form for the user to submit their first name, age, e-mail, and favorite animal. Age must be written as an integer, and e-mail must be written as a proper e-mail. To reset the form there is a 'reset' button, and to submit there is a 'submit' button, however the user can't actually submit the form because that was not part of the assignment. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmyC945/AmyC945.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Using web storage, there is an additional comment box where the user can add more of their favorite animals or comments about the site. There is an option to clear and empty the local storage box. 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
